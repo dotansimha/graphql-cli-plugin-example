@@ -7,13 +7,13 @@
     "test": "graphql ./src/index.js hello"
   },
   "dependencies": {
-    "@test-graphql-cli/common": "4.0.0-alpha.25"
+    "@test-graphql-cli/common": "4.0.0-alpha-0ba0103.8"
   },
   "peerDependencies": {
     "graphql": "*"
   },
   "devDependencies": {
     "graphql": "14.5.8",
-    "graphql-cli": "4.0.0-alpha.25"
+    "graphql-cli": "4.0.0-alpha-0ba0103.8"
   }
 }

@@ -78,22 +78,22 @@
     iterall "^1.1.3"
     uuid "^3.1.0"
 
-"@test-graphql-cli/common@4.0.0-alpha.23":
-  version "4.0.0-alpha.23"
-  resolved "https://registry.npmjs.org/@test-graphql-cli/common/-/common-4.0.0-alpha.23.tgz#d940871687a11af6f3997ebd6eb50e31d5d145f9"
-  integrity sha512-AfQzxtHXbNUIZ+3zovRRH2ZH1yfbJy5863xaSQWSyqxQSsJKHbmeg2R0K56lHepWmMu5Qyrj9Rs8Cv7PS1VB1Q==
+"@test-graphql-cli/common@4.0.0-alpha-0ba0103.8", "@test-graphql-cli/common@4.0.0-alpha-0ba0103.8+0ba0103":
+  version "4.0.0-alpha-0ba0103.8"
+  resolved "https://registry.npmjs.org/@test-graphql-cli/common/-/common-4.0.0-alpha-0ba0103.8.tgz#7ad12f39657ba6e00ff8989d5d780775a57ef59e"
+  integrity sha512-B5HrZVesL+mz3AtZWVm3C0dNglfLkeKFKyKLn0xpmdrvQUu+uou9OxPokblo8f3a1LZbHeBk0Mf9ggzCxyWk9A==
   dependencies:
     chalk "2.4.2"
     commander "3.0.2"
     graphql-config "3.0.0-alpha.14"
     log-symbols "3.0.0"
 
-"@test-graphql-cli/init@4.0.0-alpha.23":
-  version "4.0.0-alpha.23"
-  resolved "https://registry.npmjs.org/@test-graphql-cli/init/-/init-4.0.0-alpha.23.tgz#7f14c055533a10c95f0e445dc45993a8f854bac9"
-  integrity sha512-3k7j5sXEv1qEOojBP+jbGVJ/t8QVQ/3JLYd5bzwf5kbcZbVfP4aUmHyD74rc9YnGwxE1bJWlAAigSUV3TkSuLA==
+"@test-graphql-cli/init@4.0.0-alpha-0ba0103.8+0ba0103":
+  version "4.0.0-alpha-0ba0103.8"
+  resolved "https://registry.npmjs.org/@test-graphql-cli/init/-/init-4.0.0-alpha-0ba0103.8.tgz#ac9c9888c072cc726a088f9540ed93942be11526"
+  integrity sha512-6KtUjwvuxGAfowW3xkVVGTe6qM759bSbzCs4E3e3Yt4GnsxKNKLDfSkOPcASK8gl/PJDRZXi3XcQ0I9KMvauKQ==
   dependencies:
-    "@test-graphql-cli/common" "4.0.0-alpha.23"
+    "@test-graphql-cli/common" "4.0.0-alpha-0ba0103.8+0ba0103"
     chalk "2.4.2"
     commander "3.0.2"
     fs-extra "^8.1.0"
@@ -704,13 +704,13 @@ grapheme-splitter@^1.0.4:
   resolved "https://registry.npmjs.org/grapheme-splitter/-/grapheme-splitter-1.0.4.tgz#9cf3a665c6247479896834af35cf1dbb4400767e"
   integrity sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==
 
-graphql-cli@4.0.0-alpha.23:
-  version "4.0.0-alpha.23"
-  resolved "https://registry.npmjs.org/graphql-cli/-/graphql-cli-4.0.0-alpha.23.tgz#ae54f1b9eaacbd3a050bd6f7aa54e238affb2d21"
-  integrity sha512-2U5UX+DuYh28L/9YQN9U15/jKKIaCcZyuG4rCqm90Ua40nn7a+zQTFQ7ipgSmQOKWYpeV3ZNUaC/hDj42bT8tQ==
+graphql-cli@4.0.0-alpha-0ba0103.8:
+  version "4.0.0-alpha-0ba0103.8"
+  resolved "https://registry.npmjs.org/graphql-cli/-/graphql-cli-4.0.0-alpha-0ba0103.8.tgz#d90e9e577d4003d3b8368d00ce94f45b5772ff1b"
+  integrity sha512-k+V8S/Nw2KShOs/ymlJyXZVFDBwwvuANZZmbydoHQ3qHf2m12phh7ekEwiRIxz8jUjESxfZns25Sx4g0yctCyw==
   dependencies:
-    "@test-graphql-cli/common" "4.0.0-alpha.23"
-    "@test-graphql-cli/init" "4.0.0-alpha.23"
+    "@test-graphql-cli/common" "4.0.0-alpha-0ba0103.8+0ba0103"
+    "@test-graphql-cli/init" "4.0.0-alpha-0ba0103.8+0ba0103"
     chalk "2.4.2"
     commander "3.0.2"
     graphql-config "3.0.0-alpha.14"
