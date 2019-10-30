@@ -1,0 +1,19 @@
+{
+  "name": "graphql-cli-plugin-example",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "graphql ./src/index.js hello"
+  },
+  "dependencies": {
+    "@test-graphql-cli/common": "4.0.0-alpha.23"
+  },
+  "peerDependencies": {
+    "graphql": "*"
+  },
+  "devDependencies": {
+    "graphql": "14.5.8",
+    "graphql-cli": "4.0.0-alpha.23"
+  }
+}
